@@ -1,0 +1,188 @@
+body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    
+    background:
+        linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.7) 1%,
+            rgba(0, 0, 0, 0.4) 44.5%, 
+            rgba(0, 0, 0, 0.4) 42.5%
+        ),
+    url(file:///C:/xampp/htdocs/pag-netflix/img/background.jpg);
+
+}
+
+#logo-netflix {
+    width: 10.5rem;
+    padding:25px 0 0 40px;
+}
+
+#title-login {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.login-box {
+    width: 330px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.credentials {
+    background: #333;
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    background: #e50914;
+    width: 90%;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 20px 0 10px 2px;
+}
+
+.checkbox {
+    display: inline;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#ajuda-btn {
+    position: relative;
+    top: 3px;
+    left: 63px;
+    font-size: 13px;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.facebook {
+    color: #737373;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.facebook::before {
+    background-image: url('file:///C:/xampp/htdocs/pag-netflix/img/facebook.png');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    vertical-align: middle;
+}
+
+#new-user {
+    font-size: 16px;
+    color: #737373;
+    font-weight: 100;
+    padding: 10px 0;
+}
+
+#new-user a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#security-msg {
+    margin-top: 10px;
+    color: #8c8c8c;
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 260px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #8c8c8c;
+}
+
+footer a{
+    color: #8c8c8c;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline #8c8c8c;;
+}
+
+#duvidas {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.conjunto-colunas {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.coluna-footer a{
+    display: block;
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+  
+.conjunto-colunas:after {
+content: "";
+display: table;
+clear: both;
+}
+
+#more-info {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+#more-info:hover {
+    text-decoration: underline #0071eb;
+}
+
+#assine-agora:hover {
+    text-decoration: underline #fff;
+}
+
+#ajuda-btn:hover {
+    text-decoration: underline #8c8c8c;
+}
+
+.caixa-select {
+    padding-top: 30px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.options-box {
+    color: inherit;
+    background: black;
+    border: 1px solid #333;
+    width: 138px;
+    height: 50px;
+}
+
+.options-box::before {
+
+}
