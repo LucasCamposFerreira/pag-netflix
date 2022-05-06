@@ -7,7 +7,7 @@ body {
             rgba(0, 0, 0, 0.4) 44.5%, 
             rgba(0, 0, 0, 0.4) 42.5%
         ),
-    url(img/background.jpg);
+    url("./img/background.jpg");
 
 }
 
